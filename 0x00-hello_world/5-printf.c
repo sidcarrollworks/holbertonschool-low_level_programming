@@ -3,7 +3,7 @@
 /**
 *main - Prints statemnet and returns 0
 *Description:Prints out a section of a quote and returns 0
-* Return: prints and returns 0
+*Return: prints and returns 0
 */
 int main(void)
 {
