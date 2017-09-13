@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-main()
+int main()
 {
 	puts("Programming is like building a multilangual puzzle");
-	return 0;
+
+	return (0);
 }
