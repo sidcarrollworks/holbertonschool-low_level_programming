@@ -7,10 +7,8 @@
 int main(void)
 {
 	int c;
-	int str = '0';
 
 	for (c = 0 ; c <= 9 ; c++)
-		iota(c, str, 10);
 		putchar(c);
 		putchar('\n');
 
