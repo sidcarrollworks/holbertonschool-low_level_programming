@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *printf - prints out lines
+ *main - prints out lines
  *Description: Prints out the byte size of various types
  *Return: return zero
  */
