@@ -19,9 +19,11 @@ int main(void)
 			{
 				putchar(c);
 				putchar(d);
-				putchar(',');
-				putchar(' ');
-
+				if (c < '8' || d < '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
