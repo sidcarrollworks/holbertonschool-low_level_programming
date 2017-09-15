@@ -8,9 +8,7 @@
  */
 int main(void)
 {
-	int c;
-	int d;
-	int e;
+	int c, d, e;
 
 	for (c = '0' ; c <= '9' ; c++)
 	{
@@ -24,7 +22,7 @@ int main(void)
 					putchar(d);
 					putchar(e);
 
-					if (c < '7' || d < '8' || e < '9')
+					if (e != '9' || e - d != 1 || d - c != 1)
 					{
 						putchar(',');
 						putchar(' ');
