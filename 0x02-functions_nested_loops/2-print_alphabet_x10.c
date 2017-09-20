@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- *print_alphabet_x10 - prints out the alphabet 10 times each on a different line
+ *print_alphabet_x10 - prints out the alphabet 10 times on seperate lines
  *
  *Description: uses nested for loop to accomplish this
  *Result: 10 prints alphabets
