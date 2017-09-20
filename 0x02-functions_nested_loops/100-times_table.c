@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
+ *print_times_table - prints out the times table for the number
  *
- *
- *
- *
- *
+ *Description: uses the input value to set a times table
+ *@n: the input value from the main file
+ *Return: returns the  multiplication table value
  */
 void print_times_table(int n)
 {
