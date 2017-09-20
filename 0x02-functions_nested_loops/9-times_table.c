@@ -1,9 +1,10 @@
 #include "holberton.h"
 
 /**
+ * times_table - prints multiplication table
  *
- *
- *
+ * Description: prints multiplication table
+ * Return: ntohing
  */
 void times_table(void)
 {
@@ -14,7 +15,7 @@ void times_table(void)
 		for (b = 0 ; b <= 9 ; b++)
 		{
 			c = a * b;
-			if ( b != 0)
+			if (b != 0)
 			{
 				_putchar(' ');
 
@@ -25,7 +26,7 @@ void times_table(void)
 			}
 
 			_putchar(c % 10 + 48);
-			
+
 			if (a <= 9 && b < 9)
 			{
 				_putchar(',');
