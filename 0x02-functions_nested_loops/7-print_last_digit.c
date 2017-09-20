@@ -22,6 +22,6 @@ int print_last_digit(int c)
 		return (c);
 	}
 	else
-		_putchar('0' + c);
+		_putchar('0');
 		return (c);
 }
