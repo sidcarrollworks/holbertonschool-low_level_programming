@@ -1,11 +1,10 @@
 #include "holberton.h"
 
 /**
+ * more_numbers - prints numbers 0 to 14
  *
- *
- *
- *
- *
+ * Description: prints numbers using for loop
+ * Return: void
  */
 void more_numbers(void)
 {
