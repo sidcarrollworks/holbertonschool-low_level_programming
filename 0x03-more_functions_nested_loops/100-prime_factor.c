@@ -20,5 +20,5 @@ int main(void)
 		}
 	}
 	printf("%d\n", i);
-	return (i);
+	return (0);
 }
