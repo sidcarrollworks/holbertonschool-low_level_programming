@@ -6,13 +6,14 @@
  * Description: concatenates two strings with a limit
  * @dest: destination string
  * @src: source string
+ * @n: limit
  * Return: returns the destination
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
-	i = 0; 
+	i = 0;
 	while (dest[i] != '\0')
 		i++;
 
