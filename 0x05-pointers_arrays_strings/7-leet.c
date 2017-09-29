@@ -14,6 +14,7 @@ char *leet(char *arr)
 	char l[] = "aAeEoOtTlL";
 	char n[] = "4433007711";
 
+	i = 0;
 	while (arr[i] != '\0')
 	{
 		s = 0;
