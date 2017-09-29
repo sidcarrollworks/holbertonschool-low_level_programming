@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _strcpy - copies string to a certain point
+ * _strncpy - copies string to a certain point
  *
  * Description: copies string but only up untill n
  * @dest: copy destination
