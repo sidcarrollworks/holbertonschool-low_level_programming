@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-int is_seperator (char a);
+int is_seperator(char a);
 /**
  * cap_string - capitalizes all words in string
  *
