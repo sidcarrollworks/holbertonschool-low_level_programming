@@ -1,5 +1,6 @@
 #ifndef HOLBERTON
 #define HOLBERTON
+#define NULL 0
 
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
