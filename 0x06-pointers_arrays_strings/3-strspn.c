@@ -1,10 +1,12 @@
 #include "holberton.h"
 
 /**
+ * _strspn - gets the length of prefix substring
  *
- *
- *
- *
+ * Description: calculates the name in bytes of the of matching
+ * @s: pointer to main string
+ * @accept: pointer to substring
+ * Return: the number of matching char in bytes
  */
 unsigned int _strspn(char *s, char *accept)
 {
