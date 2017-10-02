@@ -1,10 +1,12 @@
 #include "holberton.h"
 
 /**
+ * _strchr - locates character in string
  *
- *
- *
- *
+ * Description: returns a pointer with the matching char
+ * @s: a pointer to what you want to look in
+ * @c: the char you want to find
+ * Return: a pointer to the matched character
  */
 char *_strchr(char *s, char c)
 {
@@ -14,5 +16,5 @@ char *_strchr(char *s, char c)
 			return (s);
 		s++;
 	}
-	return (0);
+	return ('\0');
 }
