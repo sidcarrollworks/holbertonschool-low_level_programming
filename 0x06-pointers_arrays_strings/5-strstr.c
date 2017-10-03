@@ -1,4 +1,4 @@
-#include "holberton.h"
+-Wall -pedantic -Werror -Wextra 8-main.c 8-print_diagsums.c -o 8-print_diagsumsinclude "holberton.h"
 
 /**
  * _strstr - locates a substring in a string
