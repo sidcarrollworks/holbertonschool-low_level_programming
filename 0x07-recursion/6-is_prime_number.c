@@ -8,7 +8,7 @@ int helper(int x, int n);
  */
 int is_prime_number(int n)
 {
-	return (helper(n / 2, n));
+	return (helper(n, n / 2));
 }
 
 /**
@@ -17,14 +17,14 @@ int is_prime_number(int n)
  * @n: starting number
  * Return: returns 1 if a prime and 0 otherwise
  */
-int helper(int x, int n)
+int helper(int n, int x)
 {
-	if (n < 1)
+	if (x < 1)
 		return (0);
-	if (n == 1)
+	if (x == 1)
 		return (1);
 	if (n % x == 0)
 		return (0);
 	else
-		return (helper(x - 1, n));
+		return (helper(n, x - 1));
 }
