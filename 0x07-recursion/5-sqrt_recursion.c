@@ -6,6 +6,7 @@ int helper(int x, int n);
  *
  * Description: finds the square root of a number
  * @n: number to get square root of
+ * Return: the answer
  */
 int _sqrt_recursion(int n)
 {
