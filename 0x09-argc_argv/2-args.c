@@ -1,11 +1,13 @@
 #include <stdio.h>
 
 /**
+ * main - prints all arguements
  *
- *
- *
+ * @argc: arguement count
+ * @argv: array for arguemnts
+ * Return: return 0
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 

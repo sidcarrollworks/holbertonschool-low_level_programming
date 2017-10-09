@@ -2,11 +2,13 @@
 #include <stdlib.h>
 
 /**
+ * main - multiplies 2 numbers
  *
- *
- *
+ * @argc: count
+ * @argv: string array
+ * Return: 0 if multiplies and 1 if error
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int sum = 0;
 
