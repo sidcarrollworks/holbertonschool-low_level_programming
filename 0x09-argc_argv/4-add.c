@@ -3,22 +3,27 @@
 #include <ctype.h>
 
 /**
+ * main - add two numbers
  *
- *
- *
+ * @argc: arguement count
+ * @argv: arguement array
+ * Return: 0 if no number is passed, 1 if not a number
  */
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int i, j, sum = 0;
 
 	argc += 1;
-	for (i = 0 ; i < argc ; i++)
+	if (argc == 0)
 	{
-		if (argc > 0)
+		for (i = 0 ; i < argc ; i++)
 		{
 			if (isdigit(argv[i]))
 			{
-				sum = atoi(argv[i]) + atoi(argv[i]);
+				for (j = 0 ; j < argc ; j++)
+				{
+					sum += atoi(argv[i]);
+				}
 			}
 			else
 			{
@@ -27,6 +32,6 @@ int main(int argc, char *argv[])
 			}
 		}
 	}
-	printf("%d\n", sum);
-	return 0;
+	printf("\n");
+	return (0);
 }
