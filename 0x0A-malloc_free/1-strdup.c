@@ -2,9 +2,9 @@
 #include "holberton.h"
 
 /**
- *
- *
- *
+ * _strdup - duplicates a string
+ * @str: the string we want to duplicate
+ * Return: returns the duplicated string
  */
 char *_strdup(char *str)
 {
@@ -15,13 +15,12 @@ char *_strdup(char *str)
 	length = 0;
 	while (str[length])
 		length++;
-	s = malloc((length + 1) * sizeof(char));
+	s = malloc(length * sizeof(char));
 	i = 0;
 	while (i < length)
 	{
 		s[i] = str[i];
 		i++;
 	}
-	s[i] = '\0';
 	return (s);
 }
