@@ -8,14 +8,20 @@
  */
 char *_strdup(char *str)
 {
-	int length;
-	int i;
+	int length, i;
 	char *s;
 
 	length = 0;
 	while (str[length])
 		length++;
+
 	s = malloc(length * sizeof(char));
+
+	if (str == NULL)
+		return (NULL);
+	if (s == NULL)
+		return (NULL);
+
 	i = 0;
 	while (i < length)
 	{
