@@ -17,12 +17,15 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-	i = 0;
-	while (i != size)
+	else
 	{
-		s[i] = c;
-		i++;
-	}		
-	s[i] = '\0';
-	return (s);
+		i = 0;
+		while (i < size)
+		{
+			s[i] = c;
+			i++;
+		}		
+		s[i] = '\0';
+		return (s);
+	}
 }
