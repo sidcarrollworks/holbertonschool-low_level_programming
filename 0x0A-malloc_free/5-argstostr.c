@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include "holberton.h"
 
-int _strlen(char *s);
+int findlength(int ac, char **av);
 
 /**
  * argstorstr - concatenates all the arguements of program
