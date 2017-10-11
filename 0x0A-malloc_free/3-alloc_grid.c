@@ -2,9 +2,10 @@
 #include "holberton.h"
 
 /**
- *
- *
- *
+ * alloc_grid - prints a multidimensional array
+ * @width: number of columns
+ * @height: number of rows
+ * Return: return the multidimensional array
  */
 int **alloc_grid(int width, int height)
 {
