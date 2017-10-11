@@ -4,7 +4,7 @@
 int findlength(int ac, char **av);
 
 /**
- * argstorstr - concatenates all the arguements of program
+ * argstostr - concatenates all the arguements of program
  * @ac: the number of arguements
  * @av: the strings
  * Return: returns the concatened strings
