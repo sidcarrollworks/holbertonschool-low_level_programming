@@ -45,11 +45,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	return (s);
 }
 /**
-     * _strlen - prints the length of a string
-      * Description: cycles through the array of s until its false
-       * @s: input from file
-        * Return: returns the length
-	 */
+ * _strlen - prints the length of a string
+ * Description: cycles through the array of s until its false
+ * @s: input from file
+ * Return: returns the length
+ */
 int _strlen(char *s)
 {
 	int counter = 0;
