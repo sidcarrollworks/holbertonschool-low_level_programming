@@ -3,9 +3,11 @@
 
 int _strlen(char *s);
 /**
- *
- *
- *
+ * string_nconcat - concats the first string with n bytes of s2
+ * @s1: first string
+ * @s2: second string
+ * @n: how many bytes to take from s2
+ * Return: return the concatenated string
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
