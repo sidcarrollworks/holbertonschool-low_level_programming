@@ -2,9 +2,8 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- *
- *
- *
+ * print_dog - prints out the dog information
+ * @d: pointer to the do struct
  */
 void print_dog(struct dog *d)
 {
@@ -16,7 +15,7 @@ void print_dog(struct dog *d)
 			printf("Name: (nil)\n");
 
 		if ((*d).age != 0)
-			printf("Age: %f\n", (*d).age);	
+			printf("Age: %f\n", (*d).age);
 		else
 			printf("Age: (nil)\n");
 
