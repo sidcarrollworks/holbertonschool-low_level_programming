@@ -25,14 +25,14 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (ownerCopy == NULL)
 	{
-		free (new_dog);
+		free(new_dog);
 		return (NULL);
 	}
 	nameCopy = _strcpy(name);
 	if (nameCopy == NULL)
 	{
-		free (ownerCopy);
-		free (new_dog);
+		free(ownerCopy);
+		free(new_dog);
 		return (NULL);
 	}
 
@@ -43,19 +43,21 @@ dog_t *new_dog(char *name, float age, char *owner)
 }
 /**
  * _strlen - prints the length of a string
+ * @s: t
  * Description: cycles through the array of s until its false
+ * Return: length
  */
 int _strlen(char *s)
 {
 	int len;
 
-	for (len = 0 ; s[len] ; len++);
+	for (len = 0 ; s[len] ; len++)
+	{}
 
 	return (len);
 }
 /**
  * _strcpy - copys array from one pointer to another
- * @dest: pointer to destination file
  * @src: pointer to source file
  * Return: the array
  */
