@@ -1,5 +1,4 @@
 #include "variadic_functions.h"
-#include <stdlib.h>
 #include <stdio.h>
 /**
  * print_all - prints all the things
