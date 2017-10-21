@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * print_all - prints all the things
@@ -42,7 +43,7 @@ void print_all(const char * const format, ...)
 		}
 		if (format[i + 1] != '\0' && c == 0)
 			printf(", ");
-		i++;
+		++i;
 	}
 	va_end(list);
 	putchar ('\n');
