@@ -32,7 +32,7 @@ void print_all(const char * const format, ...)
 				printf("%s", holder);
 				break;
 			default:
-				break;
+				continue;
 		}
 		if (format[i])
 			printf(", ");
