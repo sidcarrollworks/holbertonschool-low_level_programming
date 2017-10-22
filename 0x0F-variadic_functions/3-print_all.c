@@ -14,7 +14,7 @@ void print_all(const char * const format, ...)
 	va_start(list, format);
 	while (format && format[i])
 	{
-		switch (format[i])
+		switch (format[i++])
 		{
 			case 'c':
 				printf("%c", va_arg(list, int));
@@ -34,7 +34,6 @@ void print_all(const char * const format, ...)
 			default:
 				continue;
 		}
-		i++;
 		if (format[i])
 			printf(", ");
 	}
