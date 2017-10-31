@@ -16,10 +16,10 @@ void free_listint2(listint_t **head)
 
 	while (tmp)
 	{
-		tmp2 = tmp->next;
-		free(tmp);
-		tmp = tmp2;
+		tmp2 = tmp;
+		tmp = tmp2->next;
+		free(tmp2);
 	}
 	*head = NULL;
-	free(tmp2);
+	free(tmp);
 }
