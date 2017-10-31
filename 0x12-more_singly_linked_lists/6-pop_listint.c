@@ -1,8 +1,9 @@
 #include "lists.h"
 
 /**
- *
- *
+ * pop_listint - deletes head node and returns data
+ * @head: double pointer to head
+ * Return: data of head
  */
 int pop_listint(listint_t **head)
 {

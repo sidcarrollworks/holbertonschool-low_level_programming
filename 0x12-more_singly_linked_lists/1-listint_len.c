@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- *
- *
- *
+ * listint_len - finds the length of the list
+ * @h: linked list
+ * Return: length
  */
 size_t listint_len(const listint_t *h)
 {
