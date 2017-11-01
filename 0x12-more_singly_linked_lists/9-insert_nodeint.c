@@ -13,7 +13,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	listint_t *traverse = *head;
 	unsigned int pos;
 
-	if (!head)
+	if (!(*head))
 		return (NULL);
 
 	new_node = malloc(sizeof(listint_t));
@@ -43,5 +43,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			pos++;
 		}
 	}
+	free(new_node);
 	return (NULL);
 }
