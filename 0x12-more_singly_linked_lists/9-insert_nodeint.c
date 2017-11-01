@@ -26,7 +26,8 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	if (idx == 0)
 	{
 		new_node->next = *head;
-		return (*head = new_node);
+		*head = new_node;
+		return (new_node);
 	}
 	else
 	{
@@ -37,7 +38,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 			{
 				new_node->next = traverse->next;
 				traverse->next = new_node;
-				return (*head);
+				return (new_node);
 			}
 			traverse = traverse->next;
 			pos++;
