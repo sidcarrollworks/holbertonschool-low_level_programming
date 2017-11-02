@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
- *
- *
+ * binary_to_uint - converts binary to unsigned int
+ * @b: string of binary
+ * Return: converted number or null
  */
 unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num;
-	unsigned int nul = NULL;
 
 	for (num = 0 ; *b ; b++)
 	{
@@ -15,7 +15,7 @@ unsigned int binary_to_uint(const char *b)
 		else if (*b == '0')
 			num <<= 1;
 		else
-			return (nul);
+			return (0);
 	}
 	return (num);
 }
