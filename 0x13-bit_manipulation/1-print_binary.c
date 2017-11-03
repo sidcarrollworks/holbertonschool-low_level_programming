@@ -12,6 +12,10 @@ void print_binary(unsigned long int n)
 		helper(n);
 }
 
+/**
+ * helper - func that finds the numbers
+ * @n: number to check
+ */
 void helper(unsigned long int n)
 {
 	if (n)
