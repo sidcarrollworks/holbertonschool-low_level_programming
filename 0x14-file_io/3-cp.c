@@ -19,12 +19,16 @@ int main(int argc, char *argv[])
 	}
 	files[0] = open(argv[1], O_RDONLY);
 	if (files[0] == -1)
-		return (-1);
-	files[1] = open(argv[2], O_WRONLY | O_CREAT | S_IRUSR | S_IWUSR);
+	{
+		dprintf(STDOUT_FILENO, "Error: Can't read from %s\n", argv[1]);
+		exit(98);
+	}
+	files[1] = open(argv[2], O_WRONLY | O_CREAT, 0666);
 	if (files[1] == -1)
 	{
+		dprintf(STDOUT_FILENO, "Error: Can't write to %s\n", argv[2]);
 		close(files[0]);
-		return (-1);
+		exit(99);
 	}
 	while ((count = read(files[0], buf, sizeof(buf))) != 0)
 		write(files[1], buf, count);
