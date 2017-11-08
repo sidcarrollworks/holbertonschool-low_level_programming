@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	char buf[1024];
+	char buf[1025];
 	int file1;
 	int file2;
 	int rERR = 1, wERR = 0;
@@ -16,19 +16,19 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		dprintf(STDOUT_FILENO, "Usage: cp file_from file_to\n");
+		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(97);
 	}
 	file1 = open(argv[1], O_RDONLY);
 	if (file1 == -1)
 	{
-		dprintf(STDOUT_FILENO, "Error: Can't read from %s\n", argv[1]);
+		dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[1]);
 		exit(98);
 	}
 	file2 = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (file2 == -1)
 	{
-		dprintf(STDOUT_FILENO, "Error: Can't write to %s\n", argv[2]);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
 
