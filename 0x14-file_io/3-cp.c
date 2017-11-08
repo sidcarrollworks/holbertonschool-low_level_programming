@@ -6,7 +6,7 @@
  * @argv: string of chars
  * Return: return -1 if fail and 1 if true
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
 	char buf[1024];
 	int files[2];
@@ -23,11 +23,10 @@ int main(int argc, char *argv[])
 		dprintf(STDOUT_FILENO, "Error: Can't read from %s\n", argv[1]);
 		exit(98);
 	}
-	files[1] = open(argv[2], O_WRONLY | O_CREAT, 0666);
+	files[1] = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (files[1] == -1)
 	{
 		dprintf(STDOUT_FILENO, "Error: Can't write to %s\n", argv[2]);
-		close(files[0]);
 		exit(99);
 	}
 	while ((count = read(files[0], buf, sizeof(buf))) != 0)
