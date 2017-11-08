@@ -6,11 +6,12 @@
  * @argv: string of chars
  * Return: return -1 if fail and 1 if true
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	char buf[1024];
 	int files[2];
-	ssize_t count;
+	int rERR = 1, wERR = 0;
+	int closeERR;
 
 	if (argc != 3)
 	{
@@ -29,8 +30,22 @@ int main(int argc, char **argv)
 		dprintf(STDOUT_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	while ((count = read(files[0], buf, sizeof(buf))) != 0)
-		write(files[1], buf, count);
 
+	while (rERR != 0)
+	{
+		rERR = read(files[0], buf, 1024);
+		if (rERR == -1)
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]), exit(98);
+		if (rERR != 0)
+			wERR = write(files[1], buf, rERR);
+		if (wERR == -1)
+			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
+	}
+	closeERR = close(files[0]);
+	if (closeERR == -1)
+		dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", files[0]), exit(100);
+	closeERR = close(files[1]);
+	if (closeERR == -1)
+		dprintf(STDERR_FILENO, "Error: Can't close fd %i\n", files[1]), exit(100);
 	return (0);
 }
