@@ -12,8 +12,11 @@ int main(int argc, char *argv[])
 	int files[2];
 	ssize_t count;
 
-	if (argc < 3)
-		return (-1);
+	if (argc != 3)
+	{
+		dprintf(STDOUT_FILENO, "Usage: cp file_from file_to\n");
+		exit(97);
+	}
 	files[0] = open(argv[1], O_RDONLY);
 	if (files[0] == -1)
 		return (-1);
