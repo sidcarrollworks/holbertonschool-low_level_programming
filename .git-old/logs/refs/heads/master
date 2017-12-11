@@ -1,0 +1,69 @@
+0000000000000000000000000000000000000000 af228cdb83f19bfb3ffd3b330d7e9257766d842a vagrant <vagrant@vagrant-ubuntu-trusty-64.(none)> 1509071960 +0000	clone: from https://github.com/squidcarroll/holbertonschool-low_level_programming.git
+af228cdb83f19bfb3ffd3b330d7e9257766d842a 40d86b2d1e562b3cebce043b3f9f70e5406b4e91 squidcarroll <squidcarroll@gmail.com> 1509072233 +0000	commit: betty for 1
+40d86b2d1e562b3cebce043b3f9f70e5406b4e91 cb9e903d10aee3ef9cdc44a25beb7596ba063a69 squidcarroll <squidcarroll@gmail.com> 1509072658 +0000	commit: fix looping method
+cb9e903d10aee3ef9cdc44a25beb7596ba063a69 c2f4d64268aff9dabbcef7f2a0cfe64789f0ba21 squidcarroll <squidcarroll@gmail.com> 1509072922 +0000	commit: fix for 0
+c2f4d64268aff9dabbcef7f2a0cfe64789f0ba21 be6837a3b18585a7d6c911427e1df59efeae5bf4 squidcarroll <squidcarroll@gmail.com> 1509073048 +0000	commit: number 0
+be6837a3b18585a7d6c911427e1df59efeae5bf4 a3637e068e4706f572a7bdac84d9c46d8a106444 squidcarroll <squidcarroll@gmail.com> 1509073402 +0000	commit: fix incriment for 0
+a3637e068e4706f572a7bdac84d9c46d8a106444 db00cf1b227964d4719f8351eae4d8384e1692d3 squidcarroll <squidcarroll@gmail.com> 1509127090 +0000	commit: fix the extra element error
+db00cf1b227964d4719f8351eae4d8384e1692d3 ccca8cfa3ac4ba65302ae9bc42778fee49e73c6f squidcarroll <squidcarroll@gmail.com> 1509127268 +0000	commit: length fix for 0
+ccca8cfa3ac4ba65302ae9bc42778fee49e73c6f b17b127fb99eaebcec58bcd3bfba3c5806033555 squidcarroll <squidcarroll@gmail.com> 1509127873 +0000	commit: fix spacing for lists.h
+b17b127fb99eaebcec58bcd3bfba3c5806033555 d58281b6101cec671a63655cb580d84caa253a26 squidcarroll <squidcarroll@gmail.com> 1509128854 +0000	commit: fist advanced
+d58281b6101cec671a63655cb580d84caa253a26 0aa72613232c523674fc75e8b559b5f70e6e2891 squidcarroll <squidcarroll@gmail.com> 1509384790 +0000	commit: number 0
+0aa72613232c523674fc75e8b559b5f70e6e2891 3f46b14e8806ae036f77d6d89b7d9ff31f6625a4 squidcarroll <squidcarroll@gmail.com> 1509386181 +0000	commit: add 2
+3f46b14e8806ae036f77d6d89b7d9ff31f6625a4 828e1ae2da7a41108c2a229c4e5fe728b64bafbd squidcarroll <squidcarroll@gmail.com> 1509389898 +0000	commit: number 5
+828e1ae2da7a41108c2a229c4e5fe728b64bafbd 8d4f5b6bfa0d49c3726df28ee2a234a7eea00789 squidcarroll <squidcarroll@gmail.com> 1509395634 +0000	commit: number 6 fix
+8d4f5b6bfa0d49c3726df28ee2a234a7eea00789 9d109daee9c45d3b6d538e74e15bebd559a9b164 squidcarroll <squidcarroll@gmail.com> 1509396068 +0000	commit: add updates
+9d109daee9c45d3b6d538e74e15bebd559a9b164 1497527c8ddf870364a18af652663c8ef4f0035b squidcarroll <squidcarroll@gmail.com> 1509397362 +0000	commit: number 8 and updated lists.h
+1497527c8ddf870364a18af652663c8ef4f0035b eec9569aa94632e806d6521f88db86dc2b194c7e squidcarroll <squidcarroll@gmail.com> 1509400397 +0000	commit: update header and add 10
+eec9569aa94632e806d6521f88db86dc2b194c7e 1ba76893a28c3568ca2c67e68baa014777515c4f squidcarroll <squidcarroll@gmail.com> 1509400999 +0000	commit: update all files
+1ba76893a28c3568ca2c67e68baa014777515c4f 53e3223cdab7c52cf5b317f18b6a475e91803fc9 squidcarroll <squidcarroll@gmail.com> 1509437772 +0000	commit: betty fixes and 10 fix
+53e3223cdab7c52cf5b317f18b6a475e91803fc9 274c18ba3a42e6bb2c411039bb5e05a1e6821205 squidcarroll <squidcarroll@gmail.com> 1509438353 +0000	commit: number 5
+274c18ba3a42e6bb2c411039bb5e05a1e6821205 4854e0acb75b83c3189462cf51118b1d8ef9e9ba squidcarroll <squidcarroll@gmail.com> 1509438525 +0000	commit: number 5 test
+4854e0acb75b83c3189462cf51118b1d8ef9e9ba 0ae4da13eaf2a4d3d8b2fc52056100cfade58b9c squidcarroll <squidcarroll@gmail.com> 1509438639 +0000	commit: number 5 test
+0ae4da13eaf2a4d3d8b2fc52056100cfade58b9c b05bc0a95474d7c5717fb196297f3a0c397816ea squidcarroll <squidcarroll@gmail.com> 1509559897 +0000	commit: number 5 fix
+b05bc0a95474d7c5717fb196297f3a0c397816ea 0d35b7983eb9ff634568325038f60bdc822c5423 squidcarroll <squidcarroll@gmail.com> 1509560012 +0000	commit: free
+0d35b7983eb9ff634568325038f60bdc822c5423 db77f85cca762b5be327c5793229135245176e01 squidcarroll <squidcarroll@gmail.com> 1509560176 +0000	commit (merge): Merge branch 'master' of https://github.com/squidcarroll/holbertonschool-low_level_programming
+db77f85cca762b5be327c5793229135245176e01 71869b59ebf7488cdf1c5383990ed3a31111dfcb squidcarroll <squidcarroll@gmail.com> 1509560525 +0000	commit: fix files
+71869b59ebf7488cdf1c5383990ed3a31111dfcb 4390dff7545e9d7884df217385f057fcfddc1a18 squidcarroll <squidcarroll@gmail.com> 1509560626 +0000	commit: update 9
+4390dff7545e9d7884df217385f057fcfddc1a18 0decad3471bc82d7a6310a228d6363473d5ead23 squidcarroll <squidcarroll@gmail.com> 1509560949 +0000	commit: fix for 9
+0decad3471bc82d7a6310a228d6363473d5ead23 33845ac1b3b198ed3b7e2b94d023e4448b9c9f83 squidcarroll <squidcarroll@gmail.com> 1509561033 +0000	commit: fix 9
+33845ac1b3b198ed3b7e2b94d023e4448b9c9f83 a70d364b79d99788abcf570d0a5f0b18f30ff057 squidcarroll <squidcarroll@gmail.com> 1509561972 +0000	commit: fix for 9
+a70d364b79d99788abcf570d0a5f0b18f30ff057 1e3fc1522ceadba13f8b023a2a6a8d13ead292dc squidcarroll <squidcarroll@gmail.com> 1509580955 +0000	commit: testing different code
+1e3fc1522ceadba13f8b023a2a6a8d13ead292dc 2d4b916db17e737b95d9b6968b65632d45d5ec0b squidcarroll <squidcarroll@gmail.com> 1509652205 +0000	commit: neccesary files and task 0
+2d4b916db17e737b95d9b6968b65632d45d5ec0b 02f45e7092226e6c3335ea2662a691d5dedb15e6 squidcarroll <squidcarroll@gmail.com> 1509652339 +0000	commit: testing for 0
+02f45e7092226e6c3335ea2662a691d5dedb15e6 a09aabdcf111d1c43bc5ccb8e3a223eae6e32939 squidcarroll <squidcarroll@gmail.com> 1509657956 +0000	commit: rewrote 0
+a09aabdcf111d1c43bc5ccb8e3a223eae6e32939 0d45b8a83c9e0d2eb1801e4c4739a30dbac0f01a squidcarroll <squidcarroll@gmail.com> 1509664287 +0000	commit: number 1
+0d45b8a83c9e0d2eb1801e4c4739a30dbac0f01a 33ba4819d9ab941f619fc3c23a2f55146dba24c6 squidcarroll <squidcarroll@gmail.com> 1509664460 +0000	commit: fix betty for 1
+33ba4819d9ab941f619fc3c23a2f55146dba24c6 cbedf9a32f6d1364cd0e241d4933118f6d7ede8c squidcarroll <squidcarroll@gmail.com> 1509665335 +0000	commit: number 0 final fix
+cbedf9a32f6d1364cd0e241d4933118f6d7ede8c 14b2d7ad863fecd68c6fe73cd0ccd98319762298 squidcarroll <squidcarroll@gmail.com> 1509668395 +0000	commit: number 2
+14b2d7ad863fecd68c6fe73cd0ccd98319762298 3d90c5ee71bc6aedabffe4d5bd104c99631dfa92 squidcarroll <squidcarroll@gmail.com> 1509668890 +0000	commit: number 2 fix
+3d90c5ee71bc6aedabffe4d5bd104c99631dfa92 dc1afd5201a392b79d28a1bdd306d1ce601a02d1 squidcarroll <squidcarroll@gmail.com> 1509670610 +0000	commit: number 3
+dc1afd5201a392b79d28a1bdd306d1ce601a02d1 7d78c8aa9d76a6ec2374212afd76db59230ef239 squidcarroll <squidcarroll@gmail.com> 1509671958 +0000	commit: fix stuff
+7d78c8aa9d76a6ec2374212afd76db59230ef239 33717ba22930d095963b8e18104e67840af21981 squidcarroll <squidcarroll@gmail.com> 1509673770 +0000	commit: number 4
+33717ba22930d095963b8e18104e67840af21981 0fe14016efd4f80e57a6942e2086f6e6c78e2e9d squidcarroll <squidcarroll@gmail.com> 1509673935 +0000	commit: number 4
+0fe14016efd4f80e57a6942e2086f6e6c78e2e9d 7061e53ce5dbf3c97bf6aa944bc101962022e650 squidcarroll <squidcarroll@gmail.com> 1509674095 +0000	commit: number 4
+7061e53ce5dbf3c97bf6aa944bc101962022e650 f0542664cf9f5c53d456b642ea00bcfc6bd9f428 squidcarroll <squidcarroll@gmail.com> 1509676300 +0000	commit: number 5
+f0542664cf9f5c53d456b642ea00bcfc6bd9f428 ee09d72f1fa2211364be69234ad8352934257940 squidcarroll <squidcarroll@gmail.com> 1509676659 +0000	commit: rewrote code to make more sense
+ee09d72f1fa2211364be69234ad8352934257940 3ffa0bb40c2afc53dbfcbcd6cd18407d245fd0dc squidcarroll <squidcarroll@gmail.com> 1509676827 +0000	commit: number 5
+3ffa0bb40c2afc53dbfcbcd6cd18407d245fd0dc 2615f50248e597add5b27c8b327e688d2ac18d90 squidcarroll <squidcarroll@gmail.com> 1509735962 +0000	commit: number 6
+2615f50248e597add5b27c8b327e688d2ac18d90 a142098f63cd0481922fe5739b841c8c8b8aa3e3 squidcarroll <squidcarroll@gmail.com> 1510089667 +0000	commit: number 0
+a142098f63cd0481922fe5739b841c8c8b8aa3e3 9640462874a359d6a029b7324b15583601a0dd0d squidcarroll <squidcarroll@gmail.com> 1510090332 +0000	commit: fix for 0
+9640462874a359d6a029b7324b15583601a0dd0d 806568a67b386f2de4c2ac26fdc1cf952e471311 squidcarroll <squidcarroll@gmail.com> 1510090633 +0000	commit: number 0 fix
+806568a67b386f2de4c2ac26fdc1cf952e471311 8f2da72d73836472b5bdb2ccf251d0d15e25675a squidcarroll <squidcarroll@gmail.com> 1510093141 +0000	commit: number 1
+8f2da72d73836472b5bdb2ccf251d0d15e25675a 204b2f73cea854140fbddc4a2c76337296548e6b squidcarroll <squidcarroll@gmail.com> 1510096132 +0000	commit: number 2
+204b2f73cea854140fbddc4a2c76337296548e6b 76c7ddecffa71f3cd5667ed1c7f8bd1c3c6e86ec squidcarroll <squidcarroll@gmail.com> 1510105911 +0000	commit: number 3
+76c7ddecffa71f3cd5667ed1c7f8bd1c3c6e86ec 0c5c34a523f0db2c31c7f6bf06290ce19e4d0d49 squidcarroll <squidcarroll@gmail.com> 1510106829 +0000	commit: number 3
+0c5c34a523f0db2c31c7f6bf06290ce19e4d0d49 1be23b7db682dd168a280c7731d2483a2dc2bd3c squidcarroll <squidcarroll@gmail.com> 1510107746 +0000	commit: number 3
+1be23b7db682dd168a280c7731d2483a2dc2bd3c 88ca922ffb8604cfcdf5837a84f48cb34c59c6bf squidcarroll <squidcarroll@gmail.com> 1510108285 +0000	commit: fix for 1 and 2
+88ca922ffb8604cfcdf5837a84f48cb34c59c6bf 2d1c985c8cafb51864203ed9471c2ee3cf2a4f4c squidcarroll <squidcarroll@gmail.com> 1510108728 +0000	commit: number 3
+2d1c985c8cafb51864203ed9471c2ee3cf2a4f4c 415502249751bf70786988846bdcf925f52040a7 squidcarroll <squidcarroll@gmail.com> 1510109902 +0000	commit: number 3
+415502249751bf70786988846bdcf925f52040a7 eb6760fa846d70c7e3c1d41fbbdd202b83d988d3 squidcarroll <squidcarroll@gmail.com> 1510110113 +0000	commit: number 3
+eb6760fa846d70c7e3c1d41fbbdd202b83d988d3 d08077890cb4bf6ef2448d69f591fdbc49f5adf4 squidcarroll <squidcarroll@gmail.com> 1510110435 +0000	commit: number 3 fix
+d08077890cb4bf6ef2448d69f591fdbc49f5adf4 89b59307cdba29b5c432282121b60395569ab503 squidcarroll <squidcarroll@gmail.com> 1510110930 +0000	commit: number 3
+89b59307cdba29b5c432282121b60395569ab503 2352f2d07393566f36a8ba2502d7f733a573a2d7 squidcarroll <squidcarroll@gmail.com> 1510119141 +0000	commit: betty fix for 3
+2352f2d07393566f36a8ba2502d7f733a573a2d7 038783b1167ce110a9199f1b088faf91d6616eee squidcarroll <squidcarroll@gmail.com> 1510119726 +0000	commit: number 3
+038783b1167ce110a9199f1b088faf91d6616eee 13692425fb49aaab030e77fd856b25a385edb0c3 squidcarroll <squidcarroll@gmail.com> 1510119807 +0000	commit: number 3 fix
+13692425fb49aaab030e77fd856b25a385edb0c3 2895df12157ab7ac16d00a878b3c484f12bc972a squidcarroll <squidcarroll@gmail.com> 1510120132 +0000	commit: number 3
+2895df12157ab7ac16d00a878b3c484f12bc972a 59893c09b8c942f4e6b1e9629e2ed80824bc22f1 squidcarroll <squidcarroll@gmail.com> 1510120242 +0000	commit: number 3 compile fix
+59893c09b8c942f4e6b1e9629e2ed80824bc22f1 b8c85420d15f0ea293f456c7d37cc9d4eb5f3a3c squidcarroll <squidcarroll@gmail.com> 1510120375 +0000	commit: number 3 fix
+                                                                                                                                                           
