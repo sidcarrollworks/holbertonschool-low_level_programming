@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c -Wall -Werror -Wextra -fpic *.c && gcc -shared -o libholberton.so *.o
+gcc -c -Wall -fPIC *.c && gcc -shared -Wl,-soname,libholberton.so -o libholberton.so *.o
