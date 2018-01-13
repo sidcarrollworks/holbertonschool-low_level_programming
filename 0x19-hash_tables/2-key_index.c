@@ -1,7 +1,10 @@
 #include "hash_tables.h"
 
-/*
- *
+/**
+ * key_index - get the index of the key
+ * @key: key
+ * @size: size of hash table
+ * Return: return index of key
  */
 unsigned long int key_index(const unsigned char *key, unsigned long int size)
 {

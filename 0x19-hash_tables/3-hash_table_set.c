@@ -3,8 +3,12 @@
 int does_key_exist(hash_table_t *ht, const char *key, const char *value);
 int string_size(const char *key);
 
-/*
- *
+/**
+ * hash_table_set - set a node in hash table
+ * @ht: hash table
+ * @key: key
+ * @value: value to be inserted
+ * Return: return 1 if success or 0 if failed
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
@@ -31,6 +35,13 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	return (1);
 }
 
+/**
+ * does_key_exist -  checks if key alreadye exists
+ * @ht: hash table
+ * @key: key
+ * @value: valuen 1 if success
+ * Return: return
+ */
 int does_key_exist(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *tmp;
@@ -52,7 +63,11 @@ int does_key_exist(hash_table_t *ht, const char *key, const char *value)
 	return (1);
 }
 
-
+/**
+ * string_size - find size of string
+ * @key: key
+ * Return: return size
+ */
 int string_size(const char *key)
 {
 	int i = 0;

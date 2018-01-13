@@ -1,7 +1,10 @@
 #include "hash_tables.h"
 
-/*
- *
+/**
+ * hash_table_get - retrieves value of key
+ * @ht: hash table
+ * @key: key of node
+ * Return: return the value at key
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
