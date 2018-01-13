@@ -1,8 +1,5 @@
 #include "hash_tables.h"
 
-int exist(hash_table_t *ht, const char *key, const char *value, unsigned long int index);
-int string_size(const char *key);
-
 /**
  * hash_table_set - set a node in hash table
  * @ht: hash table
@@ -14,22 +11,29 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *new_node;
 	unsigned long int index;
-	int dup;
+	hash_node_t *search;
 
-	if (key == NULL || ht == NULL)
-		return (0);
-	if (string_size(key) == 0)
+	if (key == NULL || ht == NULL || value == NULL)
 		return (0);
 
 	index = key_index((const unsigned char *) key, ht->size);
 
-	dup = exist(ht, key, value, index);
-	if (dup == 0)
-		return (1);
-
 	new_node = malloc(sizeof(hash_node_t));
 	if (!new_node)
 		return (0);
+
+	search = ht->array[index];
+	while (search)
+	{
+		if (strcmp(search->key, key) == 0)
+		{
+			free(search->value);
+			search->value = strdup(value);
+			free(new_node);
+			return (1);
+		}
+		search = search->next;
+	}
 
 	new_node->key = (char *)key;
 	new_node->value = (char *)value;
@@ -37,45 +41,4 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	ht->array[index] = new_node;
 
 	return (1);
-}
-
-/**
- * does_key_exist -  checks if key alreadye exists
- * @ht: hash table
- * @key: key
- * @value: valuen 1 if success
- * Return: return
- */
-int exist(hash_table_t *ht, const char *key, const char *value, unsigned long int index)
-{
-	hash_node_t *tmp;
-
-	tmp = ht->array[index];
-
-	while (tmp)
-	{
-		if (strcmp(key, tmp->key) == 0)
-		{
-			free(tmp->value);
-			tmp->value = strdup(value);
-			return (0);
-		}
-		tmp = tmp->next;
-	}
-	return (1);
-}
-
-/**
- * string_size - find size of string
- * @key: key
- * Return: return size
- */
-int string_size(const char *key)
-{
-	int i = 0;
-
-	while (key[i] != '\0')
-		i++;
-
-	return (i);
 }
