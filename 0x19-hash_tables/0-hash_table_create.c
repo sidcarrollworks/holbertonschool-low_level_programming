@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 
-/*
+/**
  * hash_table_create - create hash table
  * @size: size of array
  * Return: return new hash table or NULL of failed
