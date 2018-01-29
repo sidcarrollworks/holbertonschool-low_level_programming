@@ -7,7 +7,7 @@
  */
 void bubble_sort(int *array, size_t size)
 {
-	unsigned int i, j;
+	size_t i, j;
 	int tmp;
 
 	if (!array || size == 0 || size == 1)
@@ -22,8 +22,10 @@ void bubble_sort(int *array, size_t size)
 				array[j] = array[j + 1];
 				array[j + 1] = tmp;
 
-				print_array((const int *)array, size);
+				print_array(array, size);
 			}
 		}
 	}
 }
+
+
