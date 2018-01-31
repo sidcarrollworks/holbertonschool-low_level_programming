@@ -10,13 +10,14 @@ void sort(int *array, int low, int high, int size);
  */
 void quick_sort(int *array, size_t size)
 {
-	int low;
+	size_t low, high;
 
 	low = 0;
+	high = size - 1;
 	if (size < 2 || array == NULL)
 		return;
 	size = size - 1;
-	sort(array, low, size, size + 1);
+	sort(array, low, high, size + 1);
 }
 
 /**
@@ -34,7 +35,6 @@ void sort(int *array, int low, int high, int size)
 	{
 		part = partition(array, low, high, size);
 		sort(array, low, part - 1, size);
-		print_array(array, size);
 		sort(array, part + 1, high, size);
 	}
 }
@@ -59,10 +59,18 @@ int partition(int *array, int low, int high, int size)
 		if (array[j] <= pivot)
 		{
 			i++;
-			swap(&array[i], &array[j]);
+			if (i != j)
+			{
+				swap(&array[i], &array[j]);
+				print_array(array, size);
+			}
 		}
 	}
-	swap(&array[i + 1], &array[high]);
+	if (pivot < array[i + 1])
+	{
+		swap(&array[i + 1], &array[high]);
+		print_array(array, size);
+	}
 	return (i + 1);
 }
 
