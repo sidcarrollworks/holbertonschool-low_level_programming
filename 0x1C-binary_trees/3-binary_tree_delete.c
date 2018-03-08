@@ -4,7 +4,6 @@
  * binary_tree_delete - delete binary tree
  * @tree: tree to be freed
  */
-
 void binary_tree_delete(binary_tree_t *tree)
 {
 	if (tree)
