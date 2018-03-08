@@ -7,13 +7,11 @@
  */
 binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 {
-	binary_tree_t *gprnt = node->parent->parent;
-
-	if (!node || !node->parent || !gprnt)
+	if (!node || !node->parent || !node->parent->parent)
 		return (NULL);
 
-	if (gprnt->left == node->parent)
-		return (gprnt->right);
+	if (node->parent->parent->left == node->parent)
+		return (node->parent->parent->right);
 	else
-		return (gprnt->left);
+		return (node->parent->parent->left);
 }
