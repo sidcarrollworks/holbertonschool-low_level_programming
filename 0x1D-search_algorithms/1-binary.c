@@ -1,6 +1,6 @@
 #include "search_algos.h"
 int binarySearch(int *array, int left, int right, int value, int size);
-int printArray(int *array, int left, int right);
+void printArray(int *array, int left, int right);
 
 /**
  * binary_search - main function
@@ -11,9 +11,20 @@ int printArray(int *array, int left, int right);
  */
 int binary_search(int *array, size_t size, int value)
 {
-	int val;
+	int val, left, right;
+
+	size -= 1;
+	left = 0;
+	right = size;
 
 	if (!array)
+		return (-1);
+	if (size == 0 && array[size] == value)
+	{
+		printArray(array, left, right);
+		return (size);
+	}
+	if (size == 0 && array[size] != value)
 		return (-1);
 
 	val = binarySearch(array, 0, size, value, size);
@@ -31,23 +42,30 @@ int binary_search(int *array, size_t size, int value)
  */
 int binarySearch(int *array, int left, int right, int value, int size)
 {
-	int mid;
+	int mid = left + size / 2;
 
-	size = printArray(array, left, right);
-	if (right > left)
+	printArray(array, left, right);
+	if (array[mid] == value)
+		return (mid);
+
+	if (array[mid] < value)
 	{
-		mid = left + (size) / 2;
-		if (array[mid] == value)
-			return (mid);
-		else if (size == 1)
-			return (-1);
-
-		if (array[mid] > value)
-			return (binarySearch(array, left, mid, value, size));
-		else
-			return (binarySearch(array, mid, right, value, size));
+		left = mid + 1;
+		size = right - left;
 	}
-	return (-1);
+	else if (array[mid] > value)
+	{
+		right = mid - 1;
+		size = right - left;
+	}
+
+	if (size == 0 && array[mid + 1] != value)
+	{
+		printArray(array, left, right);
+		return (-1);
+	}
+
+	return (binarySearch(array, left, right, value, size));
 }
 
 /**
@@ -57,18 +75,13 @@ int binarySearch(int *array, int left, int right, int value, int size)
  * @right: right index
  * Return: size of array
  */
-int printArray(int *array, int left, int right)
+void printArray(int *array, int left, int right)
 {
-	int i = 0;
-
 	printf("Searching in array: ");
-	for (; left < right ; left++)
+	while (left < right)
 	{
-		printf("%i", array[left]);
-		if (left < right - 1)
-			printf(", ");
-		i++;
+		printf("%i, ", array[left]);
+		left++;
 	}
-	printf("\n");
-	return (i);
+	printf("%i\n", array[left]);
 }
